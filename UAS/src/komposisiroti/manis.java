@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package komposisiroti;
-import komposisiroti.harga;
 /**
  *
  * @author ASUS
@@ -38,6 +37,6 @@ public class manis extends harga {
      public void tampilBerat(){
         System.out.println("Berat Adonan: " + this.beratDought());
         System.out.println("Jumlah Adonan yang terbuat: " + this.beratSatuan());
-         System.out.println("Modal yang dikeluarkan " + this.hargaTotal());
+        System.out.println("Modal yang dikeluarkan " + this.hargaTotal());
     }
 }

@@ -16,5 +16,17 @@ public  class komposisi {
         m1.beratSatuan();
         m1.tampilBerat();
         m1.hargaTotal();
+        
+        tawar t1 = new tawar();
+        t1.beratDought();
+        t1.beratSatuan();
+        t1.tampilBerat();
+        t1.hargaTotal();
+        
+        pizza p1 = new pizza();
+        p1.beratDought();
+        p1.beratSatuan();
+        p1.tampilBerat();
+       p1.hargaTotal();
     }
 }
