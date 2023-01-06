@@ -44,6 +44,7 @@ public class Pesanan {
             System.out.println("Jumlah Roti yang dibuat : " + TotalRotiM);
             System.out.println("---------------------------------------------");
             System.out.println("Modal untuk Adonan Roti : Rp. " + String.format("%,d\n",ModalTotalM));
+            System.out.println("Modal untuk Varian 1    : Rp. " + String.format("%,d\n",ModalTotalMV1));
             System.out.println("Modal untuk Varian 2    : Rp. " + String.format("%,d\n",ModalTotalMV2));
             System.out.println("Modal untuk Varian 3    : Rp. " + String.format("%,d\n",ModalTotalMV3));
             System.out.println("---------------------------------------------");
@@ -121,13 +122,13 @@ public class Pesanan {
         
         System.out.println("Total Berat adonan : " + TotalBeratDoughP);
         System.out.println("Jumlah Roti yang dibuat : " + TotalRotiP);
-        System.out.println("Modal untuk Adonan Roti : " + ModalTotalP);
+        System.out.println("Modal untuk Adonan Pizza: Rp. " + String.format("%,d\n",ModalTotalP));
         System.out.println("---------------------------------------------");
         System.out.println("Modal untuk Topping     : Rp. " + String.format("%,d\n",ModalTotalPV1));
         System.out.println("---------------------------------------------");
-        System.out.println("Total Modal Roti Pizza  : Rp. " + String.format("%,d\n",TotP));
+        System.out.println("Total Modal Pizza       : Rp. " + String.format("%,d\n",TotP));
         System.out.println("=============================================");
-        System.out.println("Profit Roti Pizza       : Rp. " + String.format("%,d\n",PP));
+        System.out.println("Profit Pizza            : Rp. " + String.format("%,d\n",PP));
         System.out.println("Harga per Pcs           : Rp. " + String.format("%,d\n",PcsP));
         System.out.println("");
         System.out.println("");
